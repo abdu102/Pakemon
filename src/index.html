@@ -10,24 +10,23 @@
 </head>
 <body>
   <main>
-    <section>
+    <section class="bg-[#FFD845]">
       <div class="container mx-auto">
-        <div class="main min-h-[1000px] bg-[#FFD845] flex justify-around items-center flex-col gap-y-8">
+        <div class="main min-h-[1000px]  flex justify-around items-center flex-col gap-y-8">
           <div class="main__logo w-[100%] flex justify-center items-center">
             <img src="./img//logo.svg" alt="">
           </div>
           <div class="main__type w-[65%] flex justify-between">
-            <select name="" id="" class="main__type w-[150px] text-center font-bold h-[40px] border-[2px] border-[#000] border-solid bg-[#FFFFFF] rounded-[15px]">
-              <option value="a">ERROR</option>
-              <option value="b">ERROR</option>
-              <option value="c">ERROR</option>
+            <select name="" id="sortLetter" class="main__type w-[150px] text-center font-bold h-[40px] border-[2px] border-[#000] border-solid bg-[#FFFFFF] rounded-[15px]">
+              <option value="A-Z">A-Z</option>
+              <option value="Z-A">Z-A</option>
             </select>
-            <input type="text" placeholder="Search" class="pl-7 placeholder:text-black main__type w-[200px] font-bold h-[40px] border-[2px] border-[#000] border-solid bg-[#FFFFFF] rounded-[15px]">
+            <input type="text" placeholder="Search" class="search pl-7 placeholder:text-black main__type w-[200px] font-bold h-[40px] border-[2px] border-[#000] border-solid bg-[#FFFFFF] rounded-[15px]">
          
-              <select name="" id="" class="main__type w-[150px] text-center font-bold h-[40px] border-[2px] border-[#000] border-solid bg-[#FFFFFF] rounded-[15px]">
-                <option value="a">ERROR</option>
+              <select name="" id="type" class="main__type w-[150px] text-center font-bold h-[40px] border-[2px] border-[#000] border-solid bg-[#FFFFFF] rounded-[15px]">
+                <!-- <option value="a">ERROR</option>
                 <option value="b">ERROR</option>
-                <option value="c">ERROR</option>
+                <option value="c">ERROR</option> -->
               </select>
               <button class="w-[120px] font-bold h-[40px] border-[2px] border-[#000] border-solid bg-[#FFFFFF] rounded-[15px]">Button</button>
           </div>
@@ -40,5 +39,6 @@
   </main>
 
 </body>
-<script src="./js/data.js"></script>
+<script src="./js/db.js"></script>
+<script src="./js/script.js"></script>
 </html>
